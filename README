@@ -1,0 +1,9 @@
+This is a WCF service that exposes the WKHTMLtoPDF project which can be found at: http://code.google.com/p/wkhtmltopdf/
+
+It can be used to generate a PDF given a URL, this PDF can be returned by the WCF service or the location of the generated PDF can be.  I wrote this to work with 0.9.9 of wkhtmltopdf (seems to be the least buggy).  However I believe it works with all versions.
+
+There's a few gotchas for using this:
+
+1. Make sure that you have the correct installation path for wkhtmltopdf.exe set in your config.
+2. Ensure that Read and Execute rights are granted to the wkhtmltopdf folder for the relevant process
+3. Ensure that Write rights are granted for the location you want to create your PDFs for the relevant process
