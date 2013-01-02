@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("PdfMakerWcfService")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("LNR Property LLC")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("PdfMakerWcfService")]
-[assembly: AssemblyCopyright("Copyright © LNR Property LLC 2012")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
